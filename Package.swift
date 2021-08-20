@@ -9,7 +9,8 @@ let package = Package(
     targets: [
         .target(
             name: "CountryPickerView",
-            path: "CountryPickerView"
+            path: "CountryPickerView",
+            exclude: ["Assets/CountryPickerView.bundle", "Info.plist"]
         )
     ]
 )
