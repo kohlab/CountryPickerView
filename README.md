@@ -21,6 +21,12 @@ You can clone/download the repository and run the [demo project](https://github.
 
 > Note that 3.x releases are Swift 5 compatible. For the Swift 4 compatibility, use 2.x releases. For the Swift 3 compatibility, use 1.x releases.
 
+### Swift Package Manager
+
+1. In Xcode, select File > Swift Packages > Add Package Dependency from the menu bar.
+2. Enter CountryPickerView's Github URL: `https://github.com/kizitonwose/CountryPickerView`
+3. Enter the SDK version you’d like to install in your project. The default value, “Up to Next Major,” will help you keep up-to-date with feature updates without taking on breaking changes unexpectedly.
+
 ### Cocoapods
 
 CountryPickerView is available through [CocoaPods](http://cocoapods.org). Simply add the following to your Podfile:
